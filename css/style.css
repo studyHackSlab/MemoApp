@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* 色参考 */
+/* https://nipponcolors.com/ */
+
+/* アイコン */
+/* https://icooon-mono.com/11095-%e6%9e%a0%e3%81%a4%e3%81%8d%e3%81%ae%e7%be%bd%e6%a0%b9%e3%83%9a%e3%83%b3%e3%81%ae%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e7%b4%a0%e6%9d%90/ */
+
+/* https://icooon-mono.com/11989-%e3%82%b4%e3%83%9f%e7%ae%b1%e3%81%ae%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3/ */
+
+/* https://icooon-mono.com/11117-%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e7%b4%a0%e6%9d%906/ */
+
+* {
+    /* outline: 1px solid #006284; */
+}
+
+body {
+    font-family: "Tsukimi Rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #33A6B8;
+}
+
+.flex {
+    display: flex;
+}
+
+.is_evenly {
+    justify-content: space-evenly;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap {
+    gap: 2%;
+}
+
+h1{
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.header a {
+    width: 120px;
+    color: #FFFFFF;
+}
+
+.header img {
+    padding-right: 5%;
+    vertical-align: top;
+}
+
+section {
+    width: 20%;
+    /* box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.memo_header {
+    padding: 2%;
+    background-color: #42602D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.memo_header>div {
+    padding-right: 3%;
+}
+
+a {
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* 編集ボタン */
+section a:nth-of-type(1) {
+    padding-right: 10%;
+}
+
+/* 削除ボタン */
+section a:nth-of-type(2) {
+    padding-left: 10%;
+}
+
+
+img {
+    height: 20px;
+    vertical-align: bottom;
+
+}
+
+textarea {
+    font-size: 24px;
+    width: 100%;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    height: 150px;
+    resize: none;
+    padding: 2%;
+    overflow-y: hidden;
+}
